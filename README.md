@@ -23,6 +23,6 @@ Manually:
 * 20160217 0.0.1 magento extension initial version 
 
 ## Maintainer 
-Oleksandr Makhno
-option25@gmail.com 
-<a href='https://ua.linkedin.com/in/oleksandr-makhno-98a30b45'>https://ua.linkedin.com/in/oleksandr-makhno-98a30b45</a>
+* Oleksandr Makhno
+* option25@gmail.com 
+* <a href='https://ua.linkedin.com/in/oleksandr-makhno-98a30b45'>https://ua.linkedin.com/in/oleksandr-makhno-98a30b45</a>

@@ -15,7 +15,7 @@ Manually:
 3. in magento backend 'System => Cache Management' disable all cache types
 4. 
 5. 
-6. in magento backend 'System => Cache Management' and enable all cache types
+6. in magento backend 'System => Cache Management' enable all cache types
 ```
 
 ## Release History

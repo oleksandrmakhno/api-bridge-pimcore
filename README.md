@@ -22,7 +22,7 @@ Manually:
 1. if configuration was set correctly - in magento backend 'System => Configuration => Api bridge pimcore => Settings'
 we'll have Pimcore api command list (taken from pimcore)
 
-2. now we may use it something this way any place
+2. now we may use it something this way
 ```
 $apiHelper = Mage::helper('OleksandrMakhno_ApiBridgePimcore/Data');
 $res = $apiHelper->pimcoreApiCall('commandGetProduct', ['paramSku' => 'e123']);
@@ -30,8 +30,7 @@ var_dump($res); die;
 ```
 
 ## Release History
-
-* 20160217 0.0.1 magento extension initial version 
+* 20160217 0.0.1 magento extension initial version
 * 20160328 0.0.2 magento extension files added
 
 ## Maintainer 

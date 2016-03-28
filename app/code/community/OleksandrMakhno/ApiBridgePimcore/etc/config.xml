@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <OleksandrMakhno_ApiBridgePimcore>
+            <version>0.0.1</version>
+        </OleksandrMakhno_ApiBridgePimcore>
+    </modules>
+    <global>
+        <helpers>
+            <OleksandrMakhno_ApiBridgePimcore>
+                <class>OleksandrMakhno_ApiBridgePimcore_Helper</class>
+            </OleksandrMakhno_ApiBridgePimcore>
+        </helpers>
+        <models>
+            <OleksandrMakhno_ApiBridgePimcore>
+                <class>OleksandrMakhno_ApiBridgePimcore_Model</class>
+            </OleksandrMakhno_ApiBridgePimcore>
+        </models>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <use>admin</use>
+                <args>
+                    <modules>
+                        <apibridgepimcore after="Mage_Adminhtml">OleksandrMakhno_ApiBridgePimcore</apibridgepimcore>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <tab1>
+                                            <title>ApiBridgePimcore - All</title>
+                                        </tab1>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>

@@ -24,7 +24,8 @@ Manually:
 3. copy all folders / files from this 'extension' folder to magento web root directory, update files permissions to new files if needed
 4. pimcore => settings => users / roles => users => select user 'api-bridge-magento' => copy 'api key' value
 5. magento => system => configuration => api bridge pimcore => settings => in 'pimcore api user key' field paste copied key from pimcore => save config
-6. magento => system => cache management => enable cache
+6. magento => system => configuration => api bridge pimcore => settings => in 'pimcore host' field paste pimcore base url => save config
+7. magento => system => cache management => enable cache
 ```
 
 ## Test api call

@@ -21,7 +21,7 @@ Manually:
 ```
 1. in this archive there is folder 'extension' which contains extension files
 2. magento => system => cache management => disable cache
-3. copy all folders / files from this 'extension' folder to magento web root directory, update files permissions to new files if needed
+3. copy all folders / files from this 'extension' folder to magento web root directory, update files permissions to new files if needed, logout and login back magento admin
 4. pimcore => settings => users / roles => users => select user 'api-bridge-magento' => copy 'api key' value
 5. magento => system => configuration => api bridge pimcore => settings => in 'pimcore api user key' field paste copied key from pimcore => save config
 6. magento => system => configuration => api bridge pimcore => settings => in 'pimcore host' field paste pimcore base url => save config
@@ -44,6 +44,7 @@ var_dump($res); die;
 * 20160328 0.0.2 magento extension files added
 * 20160329 0.1.0 folder structure changed, description added
 * 20160329 0.2.0 exception handler added
+* 20160329 0.3.0 description changed 
 
 
 ## Maintainer

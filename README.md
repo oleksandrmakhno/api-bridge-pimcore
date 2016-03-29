@@ -20,11 +20,11 @@ Manually:
 
 ```
 1. in this archive there is folder 'extension' which contains extension files
-2. magento backend => system => cache management => disable cache
+2. magento => system => cache management => disable cache
 3. copy all folders / files from this 'extension' folder to magento web root directory, update files permissions to new files if needed
-4. pimcore backend => settings => users / roles => users => select user 'api-bridge-magento' => copy 'api key' value
-5. magento backend => system => configuration => api bridge pimcore => settings => in 'pimcore api user key' field paste copied key from pimcore => save config
-6. magento backend => system => cache management => enable cache
+4. pimcore => settings => users / roles => users => select user 'api-bridge-magento' => copy 'api key' value
+5. magento => system => configuration => api bridge pimcore => settings => in 'pimcore api user key' field paste copied key from pimcore => save config
+6. magento => system => cache management => enable cache
 ```
 
 ## Test api call

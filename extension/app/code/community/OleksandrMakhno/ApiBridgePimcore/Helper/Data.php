@@ -29,7 +29,7 @@ class OleksandrMakhno_ApiBridgePimcore_Helper_Data extends Mage_Core_Helper_Abst
             $res = file_get_contents($url);
         }
         catch (Exception $e) {
-            echo $e->getMessage(); die; // TODO
+            Mage::logException($e);
         }
 
         return $res;

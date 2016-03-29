@@ -3,7 +3,7 @@
     <modules>
         <OleksandrMakhno_ApiBridgePimcore>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </OleksandrMakhno_ApiBridgePimcore>
     </modules>
 </config>

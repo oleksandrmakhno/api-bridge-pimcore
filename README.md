@@ -11,7 +11,7 @@ Bridge includes 2 extensions:
 
 1. very simple
 2. in magento we have product 'shirt' with sku = e123
-3. in pimcore we have MagentoBaseProduct 'shirt' with sku = e123
+3. in pimcore we have object MagentoBaseProduct 'shirt' with sku = e123
 4. when in magento we open PDP (product details page) for 'shirt' - api call to pimcore fetch product media data
 
 ## Magento extension installation
@@ -20,11 +20,11 @@ Manually:
 
 ```
 1. in this archive there is folder 'extension' which contains extension files
-2. copy all folders / files from this 'extension' folder to magento web root directory, update files permissions to new files if needed 
-3. magento backend 'System => Cache Management' disable all cache types
-4. 
-5. 
-6. in magento backend 'System => Cache Management' enable all cache types
+2. magento backend => system => cache management => disable cache
+3. copy all folders / files from this 'extension' folder to magento web root directory, update files permissions to new files if needed
+4. pimcore backend => settings => users / roles => users => select user 'api-bridge-magento' => copy 'api key' value
+5. magento backend => system => configuration => api bridge pimcore => settings => in 'pimcore api user key' field paste copied key from pimcore => save config
+6. magento backend => system => cache management => enable cache
 ```
 
 ## Test api call
@@ -41,7 +41,7 @@ var_dump($res); die;
 ## Release History
 * 20160217 0.0.1 magento extension initial version
 * 20160328 0.0.2 magento extension files added
-* 20160329 0.1.0 folder structure changed
+* 20160329 0.1.0 folder structure changed, description added
 
 ## Maintainer 
 * Oleksandr Makhno

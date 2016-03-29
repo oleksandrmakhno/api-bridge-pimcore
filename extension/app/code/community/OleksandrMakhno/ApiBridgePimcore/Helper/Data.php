@@ -19,7 +19,7 @@ class OleksandrMakhno_ApiBridgePimcore_Helper_Data extends Mage_Core_Helper_Abst
             $pimcoreKey = Mage::getStoreConfig('tab1/general/pimcoreapikey',Mage::app()->getStore());
 
             // build url
-            $url = "$pimcoreHost/plugin/ApiBridgeMagento/api/gateway?apiKey=$pimcoreKey&commandName=$commandName";
+            $url = "$pimcoreHost/plugin/ApiBridgeMagento/api/gateway?paramApiKey=$pimcoreKey&paramCommand=$commandName";
             foreach ($param as $key => $value) {
                 $url .= "&$key=$value";
             }

@@ -42,8 +42,10 @@ var_dump($res); die;
 * 20160217 0.0.1 magento extension initial version
 * 20160328 0.0.2 magento extension files added
 * 20160329 0.1.0 folder structure changed, description added
+* 20160329 0.2.0 exception handler added
 
-## Maintainer 
+
+## Maintainer
 * Oleksandr Makhno
 * option25@gmail.com 
 * <a href='https://ua.linkedin.com/in/oleksandr-makhno-98a30b45'>https://ua.linkedin.com/in/oleksandr-makhno-98a30b45</a>

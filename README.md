@@ -12,7 +12,7 @@ Bridge includes 2 extensions:
 1. very simple
 2. in magento we have product 'shirt' with sku = e123
 3. in pimcore we have object MagentoBaseProduct 'shirt' with sku = e123
-4. when in magento we open PDP (product details page) for 'shirt' - api call to pimcore fetch product media data
+4. for example when in magento we open PDP (product details page) for 'shirt' - api call to pimcore fetch product media data
 
 ## Magento extension installation
 

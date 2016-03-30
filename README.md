@@ -44,7 +44,8 @@ var_dump($res); die;
 * 20160328 0.0.2 magento extension files added
 * 20160329 0.1.0 folder structure changed, description added
 * 20160329 0.2.0 exception handler added
-* 20160329 0.3.0 description changed 
+* 20160329 0.3.0 description changed
+* 20160330 1.0.0 public release
 
 
 ## Maintainer
